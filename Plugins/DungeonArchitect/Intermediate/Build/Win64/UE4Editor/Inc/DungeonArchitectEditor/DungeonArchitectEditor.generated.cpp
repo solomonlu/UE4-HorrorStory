@@ -6,69 +6,70 @@
 ===========================================================================*/
 
 #include "Private/DungeonArchitectEditorPrivatePCH.h"
+#include "GeneratedCppIncludes.h"
 #include "DungeonArchitectEditor.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1DungeonArchitectEditor() {}
 	void UDungeonEdModeHandler::StaticRegisterNativesUDungeonEdModeHandler()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonEdModeHandler, 1342135395);
+	IMPLEMENT_CLASS(UDungeonEdModeHandler, 3301653287);
 	void UGridDungeonEdModeHandler::StaticRegisterNativesUGridDungeonEdModeHandler()
 	{
 	}
-	IMPLEMENT_CLASS(UGridDungeonEdModeHandler, 2641042776);
+	IMPLEMENT_CLASS(UGridDungeonEdModeHandler, 870968827);
 	void USnapEdModeHandler::StaticRegisterNativesUSnapEdModeHandler()
 	{
 	}
-	IMPLEMENT_CLASS(USnapEdModeHandler, 697624063);
+	IMPLEMENT_CLASS(USnapEdModeHandler, 2266371420);
 	void UDungeonThemeDataFactory::StaticRegisterNativesUDungeonThemeDataFactory()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonThemeDataFactory, 3612884164);
+	IMPLEMENT_CLASS(UDungeonThemeDataFactory, 4082877456);
 	void UEdGraph_DungeonProp::StaticRegisterNativesUEdGraph_DungeonProp()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraph_DungeonProp, 2302840859);
+	IMPLEMENT_CLASS(UEdGraph_DungeonProp, 3817699836);
 	void UEdGraphNode_DungeonBase::StaticRegisterNativesUEdGraphNode_DungeonBase()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonBase, 2587344346);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonBase, 504105871);
 	void UEdGraphNode_DungeonActorBase::StaticRegisterNativesUEdGraphNode_DungeonActorBase()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonActorBase, 3274877794);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonActorBase, 640219532);
 	void UEdGraphNode_DungeonActorTemplate::StaticRegisterNativesUEdGraphNode_DungeonActorTemplate()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonActorTemplate, 4093187197);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonActorTemplate, 2615910842);
 	void UEdGraphNode_DungeonDestructibleMesh::StaticRegisterNativesUEdGraphNode_DungeonDestructibleMesh()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonDestructibleMesh, 3390757804);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonDestructibleMesh, 2645248265);
 	void UEdGraphNode_DungeonMesh::StaticRegisterNativesUEdGraphNode_DungeonMesh()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonMesh, 3957463299);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonMesh, 423332420);
 	void UEdGraphNode_DungeonParticleSystem::StaticRegisterNativesUEdGraphNode_DungeonParticleSystem()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonParticleSystem, 2624360288);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonParticleSystem, 50604892);
 	void UEdGraphNode_DungeonPointLight::StaticRegisterNativesUEdGraphNode_DungeonPointLight()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonPointLight, 1967472345);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonPointLight, 2679449147);
 	void UEdGraphNode_DungeonSpotLight::StaticRegisterNativesUEdGraphNode_DungeonSpotLight()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonSpotLight, 2275477908);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonSpotLight, 326418548);
 	void UEdGraphNode_DungeonMarker::StaticRegisterNativesUEdGraphNode_DungeonMarker()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonMarker, 797911615);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonMarker, 2858136870);
 	void UEdGraphNode_DungeonMarkerEmitter::StaticRegisterNativesUEdGraphNode_DungeonMarkerEmitter()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphNode_DungeonMarkerEmitter, 1894461099);
+	IMPLEMENT_CLASS(UEdGraphNode_DungeonMarkerEmitter, 2469595212);
 class UScriptStruct* FDungeonSchemaAction_NewNode::StaticStruct()
 {
 	extern DUNGEONARCHITECTEDITOR_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectEditor();
@@ -92,27 +93,27 @@ static struct FScriptStruct_DungeonArchitectEditor_StaticRegisterNativesFDungeon
 	void UEdGraphSchema_DungeonProp::StaticRegisterNativesUEdGraphSchema_DungeonProp()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphSchema_DungeonProp, 734829732);
+	IMPLEMENT_CLASS(UEdGraphSchema_DungeonProp, 1128478190);
 	void UEdGraphSchema_Extensions::StaticRegisterNativesUEdGraphSchema_Extensions()
 	{
 	}
-	IMPLEMENT_CLASS(UEdGraphSchema_Extensions, 3173910166);
+	IMPLEMENT_CLASS(UEdGraphSchema_Extensions, 907698642);
 	void UGridDungeonEdToolData::StaticRegisterNativesUGridDungeonEdToolData()
 	{
 	}
-	IMPLEMENT_CLASS(UGridDungeonEdToolData, 1944772627);
+	IMPLEMENT_CLASS(UGridDungeonEdToolData, 4175333207);
 	void USnapDoorAssetActorFactory::StaticRegisterNativesUSnapDoorAssetActorFactory()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDoorAssetActorFactory, 482439183);
+	IMPLEMENT_CLASS(USnapDoorAssetActorFactory, 2879403761);
 	void USnapDoorAssetFactory::StaticRegisterNativesUSnapDoorAssetFactory()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDoorAssetFactory, 2998039392);
+	IMPLEMENT_CLASS(USnapDoorAssetFactory, 2684653216);
 	void USnapEdModeUISettings::StaticRegisterNativesUSnapEdModeUISettings()
 	{
 	}
-	IMPLEMENT_CLASS(USnapEdModeUISettings, 2530389284);
+	IMPLEMENT_CLASS(USnapEdModeUISettings, 501664352);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	COREUOBJECT_API class UClass* Z_Construct_UClass_UObject();

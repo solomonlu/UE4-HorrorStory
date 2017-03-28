@@ -224,8 +224,9 @@ TSharedRef<SDockTab> FDungeonArchitectEditor::SpawnTab_PreviewSettings(const FSp
     
     TSharedPtr<SWidget> SettingsWidget = SNullWidget::NullWidget;
     if (PreviewScene.IsValid()) {
-        TSharedPtr<SAdvancedPreviewDetailsTab> PreviewSettingsWidget = SNew(SAdvancedPreviewDetailsTab)
-        .PreviewScenePtr(PreviewScene.Get());
+        //TSharedPtr<SAdvancedPreviewDetailsTab> PreviewSettingsWidget = SNew(SAdvancedPreviewDetailsTab)
+        //.PreviewScenePtr(PreviewScene.Get());
+		TSharedPtr<SAdvancedPreviewDetailsTab> PreviewSettingsWidget = SNew(SAdvancedPreviewDetailsTab, PreviewScene.ToSharedRef());
         
         PreviewSettingsWidget->Refresh();
         

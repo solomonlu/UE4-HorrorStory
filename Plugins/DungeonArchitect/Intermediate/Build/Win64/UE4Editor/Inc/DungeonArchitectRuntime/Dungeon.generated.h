@@ -5,8 +5,6 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectBase.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class ADungeon;
 #ifdef DUNGEONARCHITECTRUNTIME_Dungeon_generated_h
@@ -14,7 +12,7 @@ class ADungeon;
 #endif
 #define DUNGEONARCHITECTRUNTIME_Dungeon_generated_h
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_18_DELEGATE \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_18_DELEGATE \
 struct _Script_DungeonArchitectRuntime_eventDungeonBuildCompleteBindableEvent_Parms \
 { \
 	ADungeon* Dungeon; \
@@ -29,7 +27,7 @@ static inline void FDungeonBuildCompleteBindableEvent_DelegateWrapper(const FMul
 
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execRebuildNavigation) \
 	{ \
@@ -56,7 +54,7 @@ static inline void FDungeonBuildCompleteBindableEvent_DelegateWrapper(const FMul
 	}
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execRebuildNavigation) \
 	{ \
@@ -83,7 +81,7 @@ static inline void FDungeonBuildCompleteBindableEvent_DelegateWrapper(const FMul
 	}
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS_NO_PURE_DECLS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesADungeon(); \
 	friend DUNGEONARCHITECTRUNTIME_API class UClass* Z_Construct_UClass_ADungeon(); \
@@ -94,7 +92,7 @@ static inline void FDungeonBuildCompleteBindableEvent_DelegateWrapper(const FMul
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS \
 	private: \
 	static void StaticRegisterNativesADungeon(); \
 	friend DUNGEONARCHITECTRUNTIME_API class UClass* Z_Construct_UClass_ADungeon(); \
@@ -105,7 +103,7 @@ static inline void FDungeonBuildCompleteBindableEvent_DelegateWrapper(const FMul
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_STANDARD_CONSTRUCTORS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADungeon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADungeon) \
@@ -118,7 +116,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_ENHANCED_CONSTRUCTORS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADungeon(ADungeon&&); \
@@ -129,29 +127,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADungeon); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADungeon)
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_57_PROLOG
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_GENERATED_BODY_LEGACY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_PRIVATE_PROPERTY_OFFSET
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_57_PROLOG
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_STANDARD_CONSTRUCTORS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_PRIVATE_PROPERTY_OFFSET \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_ENHANCED_CONSTRUCTORS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_PRIVATE_PROPERTY_OFFSET \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_INCLASS_NO_PURE_DECLS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h_60_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h
+#define CURRENT_FILE_ID HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Dungeon_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

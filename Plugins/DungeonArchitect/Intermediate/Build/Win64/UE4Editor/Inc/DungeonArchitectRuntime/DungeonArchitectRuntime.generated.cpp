@@ -6,6 +6,7 @@
 ===========================================================================*/
 
 #include "Private/DungeonArchitectRuntimePrivatePCH.h"
+#include "GeneratedCppIncludes.h"
 #include "DungeonArchitectRuntime.generated.dep.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1DungeonArchitectRuntime() {}
@@ -22,7 +23,7 @@ FName DUNGEONARCHITECTRUNTIME_SelectNode = FName(TEXT("SelectNode"));
 	void UDungeonConfig::StaticRegisterNativesUDungeonConfig()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonConfig, 3923051676);
+	IMPLEMENT_CLASS(UDungeonConfig, 1658938328);
 class UScriptStruct* FRectangle::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -46,19 +47,19 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFRectan
 	void UDungeonModel::StaticRegisterNativesUDungeonModel()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonModel, 3577886896);
+	IMPLEMENT_CLASS(UDungeonModel, 1584816116);
 	void UDungeonSelectorLogic::StaticRegisterNativesUDungeonSelectorLogic()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonSelectorLogic, 445978643);
+	IMPLEMENT_CLASS(UDungeonSelectorLogic, 2443280215);
 	void UDungeonTransformLogic::StaticRegisterNativesUDungeonTransformLogic()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonTransformLogic, 1888987329);
+	IMPLEMENT_CLASS(UDungeonTransformLogic, 4221816709);
 	void UDungeonSpatialConstraint::StaticRegisterNativesUDungeonSpatialConstraint()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonSpatialConstraint, 237190429);
+	IMPLEMENT_CLASS(UDungeonSpatialConstraint, 2232900185);
 class UScriptStruct* FPropTypeData::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -122,11 +123,11 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFPropSo
 	void UDungeonEditorViewportProperties::StaticRegisterNativesUDungeonEditorViewportProperties()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonEditorViewportProperties, 593758308);
+	IMPLEMENT_CLASS(UDungeonEditorViewportProperties, 2823843616);
 	void UDungeonThemeAsset::StaticRegisterNativesUDungeonThemeAsset()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonThemeAsset, 2641366847);
+	IMPLEMENT_CLASS(UDungeonThemeAsset, 373581947);
 	void UDungeonBuilder::EmitDungeonMarkers()
 	{
 		ProcessEvent(FindFunctionChecked(DUNGEONARCHITECTRUNTIME_EmitDungeonMarkers),NULL);
@@ -137,7 +138,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFPropSo
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonBuilder::StaticClass(), "EmitMarker",(Native)&UDungeonBuilder::execEmitMarker);
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonBuilder::StaticClass(), "GetMarkers",(Native)&UDungeonBuilder::execGetMarkers);
 	}
-	IMPLEMENT_CLASS(UDungeonBuilder, 105287035);
+	IMPLEMENT_CLASS(UDungeonBuilder, 2373118527);
 	void UDungeonMarkerEmitter::EmitMarkers(UDungeonBuilder* Builder, UDungeonModel* Model, UDungeonConfig* Config)
 	{
 		DungeonMarkerEmitter_eventEmitMarkers_Parms Parms;
@@ -150,26 +151,26 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFPropSo
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonMarkerEmitter::StaticClass(), "EmitMarkers",(Native)&UDungeonMarkerEmitter::execEmitMarkers);
 	}
-	IMPLEMENT_CLASS(UDungeonMarkerEmitter, 4181394137);
+	IMPLEMENT_CLASS(UDungeonMarkerEmitter, 1913611677);
 	void ADungeon::StaticRegisterNativesADungeon()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(ADungeon::StaticClass(), "BuildDungeon",(Native)&ADungeon::execBuildDungeon);
 		FNativeFunctionRegistrar::RegisterFunction(ADungeon::StaticClass(), "DestroyDungeon",(Native)&ADungeon::execDestroyDungeon);
 		FNativeFunctionRegistrar::RegisterFunction(ADungeon::StaticClass(), "RebuildNavigation",(Native)&ADungeon::execRebuildNavigation);
 	}
-	IMPLEMENT_CLASS(ADungeon, 691779432);
+	IMPLEMENT_CLASS(ADungeon, 2900580997);
 	void UDungeonActorSelector::StaticRegisterNativesUDungeonActorSelector()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonActorSelector, 4171109256);
+	IMPLEMENT_CLASS(UDungeonActorSelector, 1940550860);
 	void UFloorPlanModel::StaticRegisterNativesUFloorPlanModel()
 	{
 	}
-	IMPLEMENT_CLASS(UFloorPlanModel, 3674448615);
+	IMPLEMENT_CLASS(UFloorPlanModel, 3044884510);
 	void UFloorPlanBuilder::StaticRegisterNativesUFloorPlanBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(UFloorPlanBuilder, 3634734704);
+	IMPLEMENT_CLASS(UFloorPlanBuilder, 124592205);
 static class UEnum* FCellType_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -278,7 +279,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFCell
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonModel::StaticClass(), "GetGridCellLookup",(Native)&UGridDungeonModel::execGetGridCellLookup);
 	}
-	IMPLEMENT_CLASS(UGridDungeonModel, 4147606283);
+	IMPLEMENT_CLASS(UGridDungeonModel, 2571735538);
 	void UGridDungeonBuilder::StaticRegisterNativesUGridDungeonBuilder()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonBuilder::StaticClass(), "ContainsCell",(Native)&UGridDungeonBuilder::execContainsCell);
@@ -286,7 +287,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFCell
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonBuilder::StaticClass(), "GetCorridors",(Native)&UGridDungeonBuilder::execGetCorridors);
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonBuilder::StaticClass(), "GetRooms",(Native)&UGridDungeonBuilder::execGetRooms);
 	}
-	IMPLEMENT_CLASS(UGridDungeonBuilder, 3320436034);
+	IMPLEMENT_CLASS(UGridDungeonBuilder, 1035489249);
 static class UEnum* EIsaacRoomTileType_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -394,11 +395,11 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFIsaacR
 	void UIsaacDungeonModel::StaticRegisterNativesUIsaacDungeonModel()
 	{
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonModel, 3067778837);
+	IMPLEMENT_CLASS(UIsaacDungeonModel, 3634656748);
 	void UIsaacDungeonBuilder::StaticRegisterNativesUIsaacDungeonBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonBuilder, 1724999227);
+	IMPLEMENT_CLASS(UIsaacDungeonBuilder, 3916874287);
 class UScriptStruct* FSnapModuleMetaData::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -422,11 +423,11 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFSnapMo
 	void ASnapModuleInfo::StaticRegisterNativesASnapModuleInfo()
 	{
 	}
-	IMPLEMENT_CLASS(ASnapModuleInfo, 3227191543);
+	IMPLEMENT_CLASS(ASnapModuleInfo, 2585063742);
 	void USnapModule::StaticRegisterNativesUSnapModule()
 	{
 	}
-	IMPLEMENT_CLASS(USnapModule, 29186458);
+	IMPLEMENT_CLASS(USnapModule, 2324250334);
 static class UEnum* ESnapDungeonLayoutLink_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -462,39 +463,39 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFSnapDu
 	void USnapDungeonLayoutNode::StaticRegisterNativesUSnapDungeonLayoutNode()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDungeonLayoutNode, 626692602);
+	IMPLEMENT_CLASS(USnapDungeonLayoutNode, 2926507710);
 	void USnapDungeonModel::StaticRegisterNativesUSnapDungeonModel()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDungeonModel, 631072571);
+	IMPLEMENT_CLASS(USnapDungeonModel, 1273202114);
 	void USnapDungeonBuilder::StaticRegisterNativesUSnapDungeonBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDungeonBuilder, 990400075);
+	IMPLEMENT_CLASS(USnapDungeonBuilder, 3191221681);
 	void UFloorPlanConfig::StaticRegisterNativesUFloorPlanConfig()
 	{
 	}
-	IMPLEMENT_CLASS(UFloorPlanConfig, 2818483874);
+	IMPLEMENT_CLASS(UFloorPlanConfig, 1739870788);
 	void UGridDungeonConfig::StaticRegisterNativesUGridDungeonConfig()
 	{
 	}
-	IMPLEMENT_CLASS(UGridDungeonConfig, 1590685600);
+	IMPLEMENT_CLASS(UGridDungeonConfig, 2659523398);
 	void UIsaacRoomLayoutBuilder::StaticRegisterNativesUIsaacRoomLayoutBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(UIsaacRoomLayoutBuilder, 1283204503);
+	IMPLEMENT_CLASS(UIsaacRoomLayoutBuilder, 3343401683);
 	void UIsaacDungeonConfig::StaticRegisterNativesUIsaacDungeonConfig()
 	{
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonConfig, 2613621986);
+	IMPLEMENT_CLASS(UIsaacDungeonConfig, 1535262724);
 	void USnapDungeonConfig::StaticRegisterNativesUSnapDungeonConfig()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDungeonConfig, 4160439473);
+	IMPLEMENT_CLASS(USnapDungeonConfig, 934391895);
 	void ADungeonDebug::StaticRegisterNativesADungeonDebug()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonDebug, 3817665972);
+	IMPLEMENT_CLASS(ADungeonDebug, 3510041261);
 	void UDungeonEventListener::OnDungeonDestroyed(ADungeon* Dungeon)
 	{
 		DungeonEventListener_eventOnDungeonDestroyed_Parms Parms;
@@ -540,11 +541,11 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFSnapDu
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonEventListener::StaticClass(), "OnPreDungeonBuild",(Native)&UDungeonEventListener::execOnPreDungeonBuild);
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonEventListener::StaticClass(), "OnPreDungeonDestroy",(Native)&UDungeonEventListener::execOnPreDungeonDestroy);
 	}
-	IMPLEMENT_CLASS(UDungeonEventListener, 1883377535);
+	IMPLEMENT_CLASS(UDungeonEventListener, 4218841147);
 	void ADungeonInstancedMeshActor::StaticRegisterNativesADungeonInstancedMeshActor()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonInstancedMeshActor, 2424032756);
+	IMPLEMENT_CLASS(ADungeonInstancedMeshActor, 4083447838);
 class UScriptStruct* FMaterialOverride::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -568,7 +569,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 	void UDungeonMesh::StaticRegisterNativesUDungeonMesh()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonMesh, 1291945300);
+	IMPLEMENT_CLASS(UDungeonMesh, 3325420048);
 	void UDungeonModelHelper::StaticRegisterNativesUDungeonModelHelper()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonModelHelper::StaticClass(), "ExpandBounds",(Native)&UDungeonModelHelper::execExpandBounds);
@@ -578,7 +579,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonModelHelper::StaticClass(), "MakeIntVector",(Native)&UDungeonModelHelper::execMakeIntVector);
 		FNativeFunctionRegistrar::RegisterFunction(UDungeonModelHelper::StaticClass(), "MakeVector",(Native)&UDungeonModelHelper::execMakeVector);
 	}
-	IMPLEMENT_CLASS(UDungeonModelHelper, 291815199);
+	IMPLEMENT_CLASS(UDungeonModelHelper, 2588989531);
 	void UGridDungeonModelHelper::StaticRegisterNativesUGridDungeonModelHelper()
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonModelHelper::StaticClass(), "AddPaintCell",(Native)&UGridDungeonModelHelper::execAddPaintCell);
@@ -592,15 +593,15 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonModelHelper::StaticClass(), "RemovePaintCell",(Native)&UGridDungeonModelHelper::execRemovePaintCell);
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonModelHelper::StaticClass(), "ToWorldCoords",(Native)&UGridDungeonModelHelper::execToWorldCoords);
 	}
-	IMPLEMENT_CLASS(UGridDungeonModelHelper, 2270617785);
+	IMPLEMENT_CLASS(UGridDungeonModelHelper, 3691415005);
 	void ADungeonParticleSystem::StaticRegisterNativesADungeonParticleSystem()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonParticleSystem, 1373736874);
+	IMPLEMENT_CLASS(ADungeonParticleSystem, 4023169438);
 	void UDungeonPropDataAsset::StaticRegisterNativesUDungeonPropDataAsset()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonPropDataAsset, 217067382);
+	IMPLEMENT_CLASS(UDungeonPropDataAsset, 2277787698);
 	bool UFloorPlanSelectorLogic::SelectNode(UFloorPlanModel* Model, UFloorPlanConfig* Config, FRandomStream const& RandomStream, int32 GridX, int32 GridY, int32 GridZ)
 	{
 		FloorPlanSelectorLogic_eventSelectNode_Parms Parms;
@@ -617,7 +618,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UFloorPlanSelectorLogic::StaticClass(), "SelectNode",(Native)&UFloorPlanSelectorLogic::execSelectNode);
 	}
-	IMPLEMENT_CLASS(UFloorPlanSelectorLogic, 803922856);
+	IMPLEMENT_CLASS(UFloorPlanSelectorLogic, 2276308331);
 	bool UGridDungeonSelectorLogic::SelectNode(UGridDungeonModel* Model, UGridDungeonConfig* Config, FCell const& Cell, FRandomStream const& RandomStream, int32 GridX, int32 GridY)
 	{
 		GridDungeonSelectorLogic_eventSelectNode_Parms Parms;
@@ -638,7 +639,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonSelectorLogic::StaticClass(), "IsPillarOnCorner",(Native)&UGridDungeonSelectorLogic::execIsPillarOnCorner);
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonSelectorLogic::StaticClass(), "SelectNode",(Native)&UGridDungeonSelectorLogic::execSelectNode);
 	}
-	IMPLEMENT_CLASS(UGridDungeonSelectorLogic, 3480412214);
+	IMPLEMENT_CLASS(UGridDungeonSelectorLogic, 1682956735);
 	bool UIsaacDungeonSelectorLogic::SelectNode(UIsaacDungeonModel* Model)
 	{
 		IsaacDungeonSelectorLogic_eventSelectNode_Parms Parms;
@@ -650,7 +651,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UIsaacDungeonSelectorLogic::StaticClass(), "SelectNode",(Native)&UIsaacDungeonSelectorLogic::execSelectNode);
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonSelectorLogic, 1808858206);
+	IMPLEMENT_CLASS(UIsaacDungeonSelectorLogic, 1736524744);
 	bool USnapDungeonSelectorLogic::SelectNode(USnapDungeonModel* Model)
 	{
 		SnapDungeonSelectorLogic_eventSelectNode_Parms Parms;
@@ -662,7 +663,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFMateri
 	{
 		FNativeFunctionRegistrar::RegisterFunction(USnapDungeonSelectorLogic::StaticClass(), "SelectNode",(Native)&USnapDungeonSelectorLogic::execSelectNode);
 	}
-	IMPLEMENT_CLASS(USnapDungeonSelectorLogic, 2956924526);
+	IMPLEMENT_CLASS(USnapDungeonSelectorLogic, 1534061386);
 static class UEnum* EGridSpatialCellOccupation_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -718,7 +719,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	void UGridSpatialConstraint2x2::StaticRegisterNativesUGridSpatialConstraint2x2()
 	{
 	}
-	IMPLEMENT_CLASS(UGridSpatialConstraint2x2, 1839856606);
+	IMPLEMENT_CLASS(UGridSpatialConstraint2x2, 3439520342);
 class UScriptStruct* FGridSpatialConstraint3x3Data::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -742,7 +743,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	void UGridSpatialConstraint3x3::StaticRegisterNativesUGridSpatialConstraint3x3()
 	{
 	}
-	IMPLEMENT_CLASS(UGridSpatialConstraint3x3, 3089101933);
+	IMPLEMENT_CLASS(UGridSpatialConstraint3x3, 565175592);
 class UScriptStruct* FGridSpatialConstraintEdgeData::StaticStruct()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -766,27 +767,27 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	void UGridSpatialConstraintEdge::StaticRegisterNativesUGridSpatialConstraintEdge()
 	{
 	}
-	IMPLEMENT_CLASS(UGridSpatialConstraintEdge, 3746766620);
+	IMPLEMENT_CLASS(UGridSpatialConstraintEdge, 2642291243);
 	void UDungeonToolData::StaticRegisterNativesUDungeonToolData()
 	{
 	}
-	IMPLEMENT_CLASS(UDungeonToolData, 4171680587);
+	IMPLEMENT_CLASS(UDungeonToolData, 1938992143);
 	void UFloorPlanToolData::StaticRegisterNativesUFloorPlanToolData()
 	{
 	}
-	IMPLEMENT_CLASS(UFloorPlanToolData, 1150348352);
+	IMPLEMENT_CLASS(UFloorPlanToolData, 3458662928);
 	void UGridDungeonToolData::StaticRegisterNativesUGridDungeonToolData()
 	{
 	}
-	IMPLEMENT_CLASS(UGridDungeonToolData, 529092477);
+	IMPLEMENT_CLASS(UGridDungeonToolData, 2503909677);
 	void UIsaacDungeonToolData::StaticRegisterNativesUIsaacDungeonToolData()
 	{
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonToolData, 3672254804);
+	IMPLEMENT_CLASS(UIsaacDungeonToolData, 1347798788);
 	void USnapDungeonToolData::StaticRegisterNativesUSnapDungeonToolData()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDungeonToolData, 3267210325);
+	IMPLEMENT_CLASS(USnapDungeonToolData, 1208631813);
 	void UFloorPlanTransformLogic::GetNodeOffset(UFloorPlanModel* Model, UFloorPlanConfig* Config, FRandomStream const& RandomStream, int32 GridX, int32 GridY, FTransform& Offset)
 	{
 		FloorPlanTransformLogic_eventGetNodeOffset_Parms Parms;
@@ -803,7 +804,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UFloorPlanTransformLogic::StaticClass(), "GetNodeOffset",(Native)&UFloorPlanTransformLogic::execGetNodeOffset);
 	}
-	IMPLEMENT_CLASS(UFloorPlanTransformLogic, 1723396835);
+	IMPLEMENT_CLASS(UFloorPlanTransformLogic, 1902906912);
 	void UGridDungeonTransformLogic::GetNodeOffset(UGridDungeonModel* Model, UGridDungeonConfig* Config, FCell const& Cell, FRandomStream const& RandomStream, int32 GridX, int32 GridY, FTransform& Offset)
 	{
 		GridDungeonTransformLogic_eventGetNodeOffset_Parms Parms;
@@ -821,7 +822,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UGridDungeonTransformLogic::StaticClass(), "GetNodeOffset",(Native)&UGridDungeonTransformLogic::execGetNodeOffset);
 	}
-	IMPLEMENT_CLASS(UGridDungeonTransformLogic, 987595348);
+	IMPLEMENT_CLASS(UGridDungeonTransformLogic, 755596951);
 	void UIsaacDungeonTransformLogic::GetNodeOffset(UIsaacDungeonModel* Model, FTransform& Offset)
 	{
 		IsaacDungeonTransformLogic_eventGetNodeOffset_Parms Parms;
@@ -834,7 +835,7 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	{
 		FNativeFunctionRegistrar::RegisterFunction(UIsaacDungeonTransformLogic::StaticClass(), "GetNodeOffset",(Native)&UIsaacDungeonTransformLogic::execGetNodeOffset);
 	}
-	IMPLEMENT_CLASS(UIsaacDungeonTransformLogic, 3105442369);
+	IMPLEMENT_CLASS(UIsaacDungeonTransformLogic, 2932717186);
 	void USnapDungeonTransformLogic::GetNodeOffset(USnapDungeonModel* Model, FTransform& Offset)
 	{
 		SnapDungeonTransformLogic_eventGetNodeOffset_Parms Parms;
@@ -847,43 +848,43 @@ static struct FScriptStruct_DungeonArchitectRuntime_StaticRegisterNativesFGridSp
 	{
 		FNativeFunctionRegistrar::RegisterFunction(USnapDungeonTransformLogic::StaticClass(), "GetNodeOffset",(Native)&USnapDungeonTransformLogic::execGetNodeOffset);
 	}
-	IMPLEMENT_CLASS(USnapDungeonTransformLogic, 1093084032);
+	IMPLEMENT_CLASS(USnapDungeonTransformLogic, 1458822979);
 	void ADungeonVolume::StaticRegisterNativesADungeonVolume()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonVolume, 1450119914);
+	IMPLEMENT_CLASS(ADungeonVolume, 4181781553);
 	void ADungeonMirrorVolume::StaticRegisterNativesADungeonMirrorVolume()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonMirrorVolume, 2726835932);
+	IMPLEMENT_CLASS(ADungeonMirrorVolume, 3110423545);
 	void ADungeonNegationVolume::StaticRegisterNativesADungeonNegationVolume()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonNegationVolume, 54905009);
+	IMPLEMENT_CLASS(ADungeonNegationVolume, 413709716);
 	void ADungeonThemeOverrideVolume::StaticRegisterNativesADungeonThemeOverrideVolume()
 	{
 	}
-	IMPLEMENT_CLASS(ADungeonThemeOverrideVolume, 15249268);
+	IMPLEMENT_CLASS(ADungeonThemeOverrideVolume, 453366353);
 	void AFloorPlanDoorVolume::StaticRegisterNativesAFloorPlanDoorVolume()
 	{
 	}
-	IMPLEMENT_CLASS(AFloorPlanDoorVolume, 1844703305);
+	IMPLEMENT_CLASS(AFloorPlanDoorVolume, 1981713772);
 	void AFloorPlanRoomVolume::StaticRegisterNativesAFloorPlanRoomVolume()
 	{
 	}
-	IMPLEMENT_CLASS(AFloorPlanRoomVolume, 1697490199);
+	IMPLEMENT_CLASS(AFloorPlanRoomVolume, 2126567474);
 	void AGridDungeonPlatformVolume::StaticRegisterNativesAGridDungeonPlatformVolume()
 	{
 	}
-	IMPLEMENT_CLASS(AGridDungeonPlatformVolume, 1936491700);
+	IMPLEMENT_CLASS(AGridDungeonPlatformVolume, 1753348497);
 	void USimpleIsaacRoomLayoutBuilder::StaticRegisterNativesUSimpleIsaacRoomLayoutBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(USimpleIsaacRoomLayoutBuilder, 1217982632);
+	IMPLEMENT_CLASS(USimpleIsaacRoomLayoutBuilder, 2709128665);
 	void UStylizedIsaacRoomLayoutBuilder::StaticRegisterNativesUStylizedIsaacRoomLayoutBuilder()
 	{
 	}
-	IMPLEMENT_CLASS(UStylizedIsaacRoomLayoutBuilder, 1009455031);
+	IMPLEMENT_CLASS(UStylizedIsaacRoomLayoutBuilder, 3586783942);
 static class UEnum* EUSnapDoorMeshType_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -899,11 +900,11 @@ static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EUSnapDoorMeshType(EUSna
 	void USnapDoorMeshInfo::StaticRegisterNativesUSnapDoorMeshInfo()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDoorMeshInfo, 2131622009);
+	IMPLEMENT_CLASS(USnapDoorMeshInfo, 4097417021);
 	void USnapDoorAsset::StaticRegisterNativesUSnapDoorAsset()
 	{
 	}
-	IMPLEMENT_CLASS(USnapDoorAsset, 2705353494);
+	IMPLEMENT_CLASS(USnapDoorAsset, 712248402);
 static class UEnum* ESnapDoorMode_StaticEnum()
 {
 	extern DUNGEONARCHITECTRUNTIME_API class UPackage* Z_Construct_UPackage__Script_DungeonArchitectRuntime();
@@ -919,7 +920,7 @@ static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESnapDoorMode(ESnapDoorM
 	void ASnapDoor::StaticRegisterNativesASnapDoor()
 	{
 	}
-	IMPLEMENT_CLASS(ASnapDoor, 630599777);
+	IMPLEMENT_CLASS(ASnapDoor, 2992849131);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	COREUOBJECT_API class UClass* Z_Construct_UClass_UObject();
@@ -2287,7 +2288,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	{
 		struct GridDungeonBuilder_eventGetCellsOfType_Parms
 		{
-			TEnumAsByte<FCellType> CellType;
+			FCellType CellType;
 			TArray<FCell> Cells;
 		};
 		UObject* Outer=Z_Construct_UClass_UGridDungeonBuilder();
@@ -2377,7 +2378,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->LinkChild(Z_Construct_UFunction_UGridDungeonBuilder_GetRooms());
 
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UGridDungeonBuilder_ContainsCell(), "ContainsCell"); // 2327146498
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UGridDungeonBuilder_GetCellsOfType(), "GetCellsOfType"); // 85133672
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UGridDungeonBuilder_GetCellsOfType(), "GetCellsOfType"); // 1932964938
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UGridDungeonBuilder_GetCorridors(), "GetCorridors"); // 2226901106
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UGridDungeonBuilder_GetRooms(), "GetRooms"); // 3259025519
 				OuterClass->StaticLink();
@@ -5813,7 +5814,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/DungeonArchitectRuntime")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x66EC64C1;
+			Guid.A = 0xDEB75808;
 			Guid.B = 0x88196131;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

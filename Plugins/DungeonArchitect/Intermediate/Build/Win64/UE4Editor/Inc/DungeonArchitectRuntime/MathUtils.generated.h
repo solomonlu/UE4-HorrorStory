@@ -5,21 +5,19 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectBase.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef DUNGEONARCHITECTRUNTIME_MathUtils_generated_h
 #error "MathUtils.generated.h already included, missing '#pragma once' in MathUtils.h"
 #endif
 #define DUNGEONARCHITECTRUNTIME_MathUtils_generated_h
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_MathUtils_h_8_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_MathUtils_h_8_GENERATED_BODY \
 	friend DUNGEONARCHITECTRUNTIME_API class UScriptStruct* Z_Construct_UScriptStruct_FRectangle(); \
 	static class UScriptStruct* StaticStruct();
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_MathUtils_h
+#define CURRENT_FILE_ID HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_MathUtils_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

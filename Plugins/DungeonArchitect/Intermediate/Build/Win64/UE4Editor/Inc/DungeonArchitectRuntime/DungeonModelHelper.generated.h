@@ -5,8 +5,6 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectBase.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct FRectangle;
 struct FIntVector;
@@ -16,7 +14,7 @@ struct FVector;
 #endif
 #define DUNGEONARCHITECTRUNTIME_DungeonModelHelper_generated_h
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetRectAreaPoints) \
 	{ \
@@ -80,7 +78,7 @@ struct FVector;
 	}
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetRectAreaPoints) \
 	{ \
@@ -144,7 +142,7 @@ struct FVector;
 	}
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS_NO_PURE_DECLS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesUDungeonModelHelper(); \
 	friend DUNGEONARCHITECTRUNTIME_API class UClass* Z_Construct_UClass_UDungeonModelHelper(); \
@@ -155,7 +153,7 @@ struct FVector;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS \
 	private: \
 	static void StaticRegisterNativesUDungeonModelHelper(); \
 	friend DUNGEONARCHITECTRUNTIME_API class UClass* Z_Construct_UClass_UDungeonModelHelper(); \
@@ -166,7 +164,7 @@ struct FVector;
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_STANDARD_CONSTRUCTORS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDungeonModelHelper(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDungeonModelHelper) \
@@ -179,7 +177,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_ENHANCED_CONSTRUCTORS \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDungeonModelHelper(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -192,29 +190,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDungeonModelHelper); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDungeonModelHelper)
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_14_PROLOG
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_GENERATED_BODY_LEGACY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_PRIVATE_PROPERTY_OFFSET
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_14_PROLOG
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_STANDARD_CONSTRUCTORS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_PRIVATE_PROPERTY_OFFSET \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_ENHANCED_CONSTRUCTORS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_PRIVATE_PROPERTY_OFFSET \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_INCLASS_NO_PURE_DECLS \
+	HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h_16_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class DungeonModelHelper."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h
+#define CURRENT_FILE_ID HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_Utils_DungeonModelHelper_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

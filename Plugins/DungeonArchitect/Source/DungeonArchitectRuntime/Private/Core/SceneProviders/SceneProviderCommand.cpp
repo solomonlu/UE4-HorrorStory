@@ -190,7 +190,7 @@ void SceneProviderCommand_AddLight::SetPointLightAttributes(UPointLightComponent
 	// ULightComponentBase Attributes
 	SET_LIGHT_ATTRIB(bAffectsWorld);
 	SET_LIGHT_ATTRIB(bAffectTranslucentLighting);
-	SET_LIGHT_ATTRIB(bPrecomputedLightingIsValid);
+	//SET_LIGHT_ATTRIB(bPrecomputedLightingIsValid);
 	SET_LIGHT_ATTRIB(CastDynamicShadows);
 	SET_LIGHT_ATTRIB(CastShadows);
 	SET_LIGHT_ATTRIB(CastStaticShadows);
