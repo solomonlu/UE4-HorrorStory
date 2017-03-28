@@ -1,0 +1,31 @@
+{
+	"FileVersion" : 3,
+	"Version" : 71,
+	"VersionName" : "2.1.10",
+	"FriendlyName" : "Dungeon Architect",
+	"Description" : "Build procedural dungeons",
+	"Category" : "Procedural",
+	"CreatedBy" : "Ali Akbar Vathi",
+	"CreatedByURL" : "http://coderespawn.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/1a4ad2a06f174a26af8a29728241ce42",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "DungeonArchitectRuntime",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "DungeonArchitectEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default"
+		}
+	]
+}

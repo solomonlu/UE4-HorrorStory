@@ -2,5 +2,12 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.14",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HorrorStory",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
