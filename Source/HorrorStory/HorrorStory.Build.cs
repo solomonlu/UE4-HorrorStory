@@ -6,7 +6,7 @@ public class HorrorStory : ModuleRules
 {
 	public HorrorStory(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "RHI", "RenderCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
