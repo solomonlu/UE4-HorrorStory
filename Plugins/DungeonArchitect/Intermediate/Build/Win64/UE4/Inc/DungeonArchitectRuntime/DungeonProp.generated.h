@@ -5,31 +5,29 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectBase.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef DUNGEONARCHITECTRUNTIME_DungeonProp_generated_h
 #error "DungeonProp.generated.h already included, missing '#pragma once' in DungeonProp.h"
 #endif
 #define DUNGEONARCHITECTRUNTIME_DungeonProp_generated_h
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_39_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_39_GENERATED_BODY \
 	friend DUNGEONARCHITECTRUNTIME_API class UScriptStruct* Z_Construct_UScriptStruct_FPropTypeData(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_26_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_26_GENERATED_BODY \
 	friend DUNGEONARCHITECTRUNTIME_API class UScriptStruct* Z_Construct_UScriptStruct_FPropChildSocketData(); \
 	static class UScriptStruct* StaticStruct();
 
 
-#define HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_10_GENERATED_BODY \
+#define HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h_10_GENERATED_BODY \
 	friend DUNGEONARCHITECTRUNTIME_API class UScriptStruct* Z_Construct_UScriptStruct_FPropSocket(); \
 	static class UScriptStruct* StaticStruct();
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h
+#define CURRENT_FILE_ID HorrorStory_Plugins_DungeonArchitect_Source_DungeonArchitectRuntime_Public_Core_DungeonProp_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
