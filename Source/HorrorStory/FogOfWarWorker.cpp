@@ -105,7 +105,8 @@ void AFogOfWarWorker::UpdateFowTexture() {
 						//for every ray we would unveil all the points between the collision and origo using Bresenham's Line-drawing algorithm.
 						//However, the tracing doesn't seem like it takes much time at all (~0.02ms with four actors tracing circles of 18 texels each),
 						//it's the blurring that chews CPU..
-						if (!Manager->GetWorld()->LineTraceTestByChannel(position, currentWorldSpacePos, ECC_WorldStatic, queryParams)) {
+						if (!Manager->GetWorld()->LineTraceTestByObjectType(position, currentWorldSpacePos, FCollisionObjectQueryParams(ECC_WorldStatic), queryParams)) {
+						//if (!Manager->GetWorld()->LineTraceTestByChannel(position, currentWorldSpacePos, ECC_WorldStatic, queryParams)) {
 							//Unveil the positions we are currently seeing
 							Manager->UnfoggedData[x + y * Manager->TextureSize] = true;
 							//Store the positions we are currently seeing.
